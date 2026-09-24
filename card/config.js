@@ -46,8 +46,8 @@ export const card = {
     website:  { url: "https://www.itri.org.tw/", label: "itri.org.tw" },
     // 第二個連結。沒有第二個網站時，指回公司首頁即可（這一區不可省略）。
     research: {
-      url: "https://www.itri.org.tw/",
-      label: { zh: "工研院官網", en: "ITRI Website", ja: "ITRI 公式サイト" },
+      url: "https://www.linkedin.com/in/ohyadaisy/",
+      label: { zh: "LinkedIn", en: "LinkedIn", ja: "LinkedIn" },
     },
     // LINE 好友連結。不想放 LINE 時設為 null，並依 SETUP.md 移除該區塊。
     line: { url: "https://line.me/ti/p/tc1YUITu0u" },
