@@ -29,9 +29,9 @@ export const card = {
     nameSub: { zh: "Daisy Shen", en: "沈怡如", ja: "沈怡如" },
     title:   { zh: "研究員", en: "Researcher", ja: "研究員" },
     domain:  {
-      zh: "先進駕駛安全輔助系統、智慧運輸系統",
-      en: "Advanced Driver Assistance Systems & Intelligent Transportation Systems",
-      ja: "先進運転支援システム・高度道路交通システム（ITS）",
+      zh: "智慧車輛（聯網自駕車、車用電子）、無人載具（無人機）",
+      en: "Smart Vehicles (Connected & Autonomous Vehicles, Automotive Electronics) and Unmanned Vehicles (Drones)",
+      ja: "スマートビークル（コネクテッド自動運転車・車載エレクトロニクス）、無人機（ドローン）",
     },
     organization: {
       zh: ["工業技術研究院", "產業科技國際策略發展所", "智慧移動載具與應用研究部 機械與系統研究組"],
@@ -55,9 +55,9 @@ export const card = {
 
   expertise: {
     heading: {
-      zh: "智慧運輸與車輛產業研究",
-      en: "Intelligent Transportation & Automotive Industry Research",
-      ja: "高度道路交通と自動車産業の研究",
+      zh: "智慧車輛與無人載具研究",
+      en: "Smart Vehicle & Unmanned Vehicle Research",
+      ja: "スマートビークルと無人機の研究",
     },
     bio: {
       zh: "沈怡如（Daisy Shen）現任工研院產業科技國際策略發展所研究員，畢業於國立交通大學運輸科技與管理學系研究所，專長領域為智慧型運輸系統。",
@@ -71,10 +71,11 @@ export const card = {
     },
     // 3～5 項為宜，手機上超過 5 項會變長條
     items: [
+      { zh: "聯網自駕車",             en: "Connected & Autonomous Vehicles",           ja: "コネクテッド自動運転車" },
+      { zh: "車用電子",               en: "Automotive Electronics",                    ja: "車載エレクトロニクス" },
+      { zh: "無人載具（無人機）",     en: "Unmanned Vehicles (Drones)",                ja: "無人機（ドローン）" },
       { zh: "先進駕駛輔助系統（ADAS）", en: "Advanced Driver Assistance Systems (ADAS)", ja: "先進運転支援システム（ADAS）" },
       { zh: "智慧運輸系統（ITS）",     en: "Intelligent Transportation Systems (ITS)",  ja: "高度道路交通システム（ITS）" },
-      { zh: "聯網自駕車",             en: "Connected & Autonomous Vehicles",           ja: "コネクテッド自動運転車" },
-      { zh: "汽車電子產業",           en: "Automotive Electronics Industry",            ja: "車載エレクトロニクス産業" },
     ],
   },
 
