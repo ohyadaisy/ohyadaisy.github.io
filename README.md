@@ -1,5 +1,7 @@
 # 電子名片（NFC／QR）
 
+> 上線：2026-09-24 · 永久入口 https://ohyadaisy.github.io/ · 名片頁 https://ohyadaisy.github.io/card/ · repo `ohyadaisy/ohyadaisy.github.io`
+
 永久入口轉址層 + 純靜態名片頁。**沒有建置步驟、沒有執行期依賴、不綁任何平台**，
 `git push` 就是發布。
 
