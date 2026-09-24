@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Sample Name//Digital Business Card//ZH-TW
+N;CHARSET=UTF-8:範;例姓名;;;
+FN;CHARSET=UTF-8:範例姓名 Sample Name
+ORG;CHARSET=UTF-8:範例股份有限公司;範例事業部
+TITLE;CHARSET=UTF-8:範例職稱 / Sample Title
+TEL;TYPE=WORK,VOICE:+886-2-1234-5678
+EMAIL;TYPE=INTERNET,WORK:sample@example.com
+ADR;TYPE=WORK;CHARSET=UTF-8:;;範例路一段 1 號;範例區;範例市;100
+ ;台灣
+URL:https://example.com/
+X-SOCIALPROFILE;TYPE=LINE:https://line.me/ti/p/範例代碼
+REV:20260914T000000Z
+END:VCARD

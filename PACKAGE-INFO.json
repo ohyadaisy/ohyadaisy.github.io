@@ -1,0 +1,14 @@
+{
+  "name": "Digital Card Starter",
+  "version": "1.0.0",
+  "released": "2026-09-24",
+  "author": "呂建興 Lucas Lu",
+  "description": "NFC／QR 電子名片空白範本：永久入口轉址層 + 純靜態三語名片頁。無建置步驟、無執行期依賴、不綁任何平台。",
+  "basedOn": "lucaslu916-coder.github.io @ 15adc5b",
+  "readFirst": "START-HERE.md",
+  "setupGuide": "SETUP.md",
+  "requires": { "node": ">=18", "git": true, "githubAccount": true },
+  "tests": { "total": 34, "blankTemplate": "33 pass, 1 intentional fail (personalisation guard)" },
+  "containsPersonalData": false,
+  "containsThirdPartyAssets": false
+}
