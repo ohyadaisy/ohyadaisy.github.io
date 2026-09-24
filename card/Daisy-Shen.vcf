@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Daisy Shen//Digital Business Card//ZH-TW
+N;CHARSET=UTF-8:沈;怡如;;;
+FN;CHARSET=UTF-8:沈怡如 Daisy Shen
+ORG;CHARSET=UTF-8:工業技術研究院;產業科技國際策略發展所;
+ 智慧移動載具與應用研究部 機械與系統研究組
+TITLE;CHARSET=UTF-8:研究員 / Researcher
+TEL;TYPE=WORK,VOICE:+886-3-591-3338
+EMAIL;TYPE=INTERNET,WORK:DaisyShen@itri.org.tw
+ADR;TYPE=WORK;CHARSET=UTF-8:;10館208室;中興路四段195號;竹東鎮;
+ 新竹縣;310401;台灣
+URL:https://www.itri.org.tw/
+X-SOCIALPROFILE;TYPE=LINE:https://line.me/ti/p/tc1YUITu0u
+REV:20260914T000000Z
+END:VCARD

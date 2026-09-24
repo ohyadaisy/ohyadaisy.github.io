@@ -5,44 +5,49 @@
 // 每個可翻譯欄位都是 { zh, en, ja } 三語對照，缺一不可
 // （漏翻時 npm test 會擋下）。
 //
-// ⚠️ 目前全部是「範例」資料。npm test 會因為偵測到範例資料而失敗，
-//    這是刻意的——確保沒有人不小心把範例名片發布出去。
-//    把下面每一處換成你自己的資料後，測試就會通過。
+// 資料來源：沈怡如本人提供的紙本名片與簡介（2026-09-24）。
 // ─────────────────────────────────────────────────────────────
 export const card = {
   site: {
     // 名片頁本身的網址（GitHub Pages）。格式：https://<你的帳號>.github.io/card/
-    publicUrl: "https://範例帳號.github.io/card/",
+    publicUrl: "https://ohyadaisy.github.io/card/",
 
     // NFC 貼紙與對外 QR Code 要寫入的「永久入口」，也就是 repo 根目錄那一頁。
     // 這個網址永遠不要改——它不變，已發出的名片與貼紙就永遠不用重做。
-    entryUrl: "https://範例帳號.github.io/",
+    entryUrl: "https://ohyadaisy.github.io/",
 
-    title: "範例姓名 Sample Name｜儲存電子名片",
-    description: "儲存範例姓名的聯絡資訊，並在手機本機記錄相識時間、場合與地點。",
+    title: "沈怡如 Daisy Shen｜儲存電子名片",
+    description: "儲存沈怡如的聯絡資訊，並在手機本機記錄相識時間、場合與地點。",
 
     // 靜態聯絡人檔名。建議用「英文名-姓.vcf」，中間不要有空白。
-    vcardFile: "Sample-Name.vcf",
+    vcardFile: "Daisy-Shen.vcf",
   },
 
   person: {
     // 漢字姓名是 vCard 的正式識別，三語共用，不隨介面語言改變
-    name:    { zh: "範例姓名", en: "Sample Name", ja: "Sample Name" },
-    nameSub: { zh: "Sample Name", en: "範例姓名", ja: "範例姓名" },
-    title:   { zh: "範例職稱", en: "Sample Title", ja: "サンプル職位" },
-    domain:  { zh: "範例領域", en: "Sample Domain", ja: "サンプル分野" },
-    organization: {
-      zh: ["範例股份有限公司", "範例事業部"],
-      en: ["Sample Company Ltd.", "Sample Business Unit"],
-      ja: ["サンプル株式会社", "サンプル事業部"],
+    name:    { zh: "沈怡如", en: "Daisy Shen", ja: "Daisy Shen" },
+    nameSub: { zh: "Daisy Shen", en: "沈怡如", ja: "沈怡如" },
+    title:   { zh: "研究員", en: "Researcher", ja: "研究員" },
+    domain:  {
+      zh: "先進駕駛安全輔助系統、智慧運輸系統",
+      en: "Advanced Driver Assistance Systems & Intelligent Transportation Systems",
+      ja: "先進運転支援システム・高度道路交通システム（ITS）",
     },
-    phone: { display: "02 1234 5678", international: "+886-2-1234-5678" },
-    email: "sample@example.com",
-    website:  { url: "https://example.com/", label: "example.com" },
+    organization: {
+      zh: ["工業技術研究院", "產業科技國際策略發展所", "智慧移動載具與應用研究部 機械與系統研究組"],
+      en: ["Industrial Technology Research Institute (ITRI)",
+           "Industry, Science and Technology International Strategy Center (ISTI)",
+           "Intelligent Mobility & Applications Research Dept. / Machinery & System Research Division"],
+      ja: ["台湾工業技術研究院（ITRI）", "産業科学技術国際戦略発展所",
+           "スマートモビリティ・応用研究部 機械・システム研究グループ"],
+    },
+    phone: { display: "03 591 3338", international: "+886-3-591-3338" },
+    email: "DaisyShen@itri.org.tw",
+    website:  { url: "https://www.itri.org.tw/", label: "itri.org.tw" },
     // 第二個連結。沒有第二個網站時，指回公司首頁即可（這一區不可省略）。
     research: {
-      url: "https://example.com/about",
-      label: { zh: "範例連結", en: "Sample Link", ja: "サンプルリンク" },
+      url: "https://www.itri.org.tw/",
+      label: { zh: "工研院官網", en: "ITRI Website", ja: "ITRI 公式サイト" },
     },
     // LINE 好友連結。不想放 LINE 時設為 null，並依 SETUP.md 移除該區塊。
     line: { url: "https://line.me/ti/p/tc1YUITu0u" },
@@ -50,26 +55,26 @@ export const card = {
 
   expertise: {
     heading: {
-      zh: "範例專業領域標題",
-      en: "Sample Expertise Heading",
-      ja: "サンプル専門分野の見出し",
+      zh: "智慧運輸與車輛產業研究",
+      en: "Intelligent Transportation & Automotive Industry Research",
+      ja: "高度道路交通と自動車産業の研究",
     },
     bio: {
-      zh: "這裡寫兩三句自我介紹：你做什麼、專長是什麼、對方為什麼會想記住你。",
-      en: "Two or three sentences about what you do, what you are good at, and why someone would want to remember you.",
-      ja: "自己紹介を 2〜3 文で。何をしていて、何が得意で、なぜ覚えてもらいたいのか。",
+      zh: "沈怡如（Daisy Shen）現任工研院產業科技國際策略發展所研究員，畢業於國立交通大學運輸科技與管理學系研究所，專長領域為智慧型運輸系統。",
+      en: "Daisy Shen is a Researcher at ITRI's Industry, Science and Technology International Strategy Center (ISTI). She holds a master's degree from the Department of Transportation Technology and Management at National Chiao Tung University, and specializes in intelligent transportation systems.",
+      ja: "沈怡如（Daisy Shen）は台湾工業技術研究院（ITRI）産業科学技術国際戦略発展所の研究員。国立交通大学 運輸科技・管理学系 大学院修了。専門は高度道路交通システム（ITS）。",
     },
     advisory: {
-      zh: "第二段補充：目前參與的專案、可以提供的協助，或想讓對方知道的合作方向。",
-      en: "A second paragraph: current projects, how you can help, or the kind of collaboration you are open to.",
-      ja: "2 段落目：現在の取り組み、提供できる支援、期待する協業の方向性など。",
+      zh: "曾任先進駕駛輔助系統軟體公司專案管理，及 FPGA 高階開發套件公司生產管理職務。目前研究領域為聯網自駕車、智慧交通及汽車電子等相關產業。",
+      en: "She previously worked in project management at an ADAS software company and in production management at an FPGA high-end development kit company. Her current research covers connected and autonomous vehicles, smart transportation, and the automotive electronics industry.",
+      ja: "以前は先進運転支援システム（ADAS）ソフトウェア企業でプロジェクト管理を、FPGA ハイエンド開発キット企業で生産管理を担当。現在は コネクテッド自動運転車、スマート交通、車載エレクトロニクスなどの関連産業を研究している。",
     },
     // 3～5 項為宜，手機上超過 5 項會變長條
     items: [
-      { zh: "核心專長一", en: "Core Skill One",   ja: "コアスキル 1" },
-      { zh: "核心專長二", en: "Core Skill Two",   ja: "コアスキル 2" },
-      { zh: "核心專長三", en: "Core Skill Three", ja: "コアスキル 3" },
-      { zh: "核心專長四", en: "Core Skill Four",  ja: "コアスキル 4" },
+      { zh: "先進駕駛輔助系統（ADAS）", en: "Advanced Driver Assistance Systems (ADAS)", ja: "先進運転支援システム（ADAS）" },
+      { zh: "智慧運輸系統（ITS）",     en: "Intelligent Transportation Systems (ITS)",  ja: "高度道路交通システム（ITS）" },
+      { zh: "聯網自駕車",             en: "Connected & Autonomous Vehicles",           ja: "コネクテッド自動運転車" },
+      { zh: "汽車電子產業",           en: "Automotive Electronics Industry",            ja: "車載エレクトロニクス産業" },
     ],
   },
 
@@ -93,11 +98,11 @@ export const card = {
       // 圖上「實際印著」的資料。上面的欄位改了卻沒重掃名片時，
       // npm test 會比對這裡並擋下——圖是點陣檔，不會跟著 config.js 變。
       printed: {
-        titleZh: "範例職稱",
-        titleEn: "Sample Title",
-        phone: "02 1234 5678",
-        email: "sample@example.com",
-        address: "範例路一段 1 號",
+        titleZh: "研究員",
+        titleEn: "Researcher",
+        phone: "03 591 3338",
+        email: "DaisyShen@itri.org.tw",
+        address: "中興路四段195號",
       },
     },
   },
@@ -105,9 +110,9 @@ export const card = {
   // vCard 內的機構與地址固定用中文原文，不隨介面語言切換——
   // 這是聯絡人的正式紀錄，保持單一寫法才不會同一個人存出三種版本。
   vcard: {
-    organization: ["範例股份有限公司", "範例事業部"],
+    organization: ["工業技術研究院", "產業科技國際策略發展所", "智慧移動載具與應用研究部 機械與系統研究組"],
     // [郵政信箱, 樓層, 街道, 鄉鎮市區, 縣市, 郵遞區號, 國家]
-    address: ["", "", "範例路一段 1 號", "範例區", "範例市", "100", "台灣"],
+    address: ["", "10館208室", "中興路四段195號", "竹東鎮", "新竹縣", "310401", "台灣"],
   },
 };
 
