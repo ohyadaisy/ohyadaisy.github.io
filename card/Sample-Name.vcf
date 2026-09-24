@@ -10,6 +10,6 @@ EMAIL;TYPE=INTERNET,WORK:sample@example.com
 ADR;TYPE=WORK;CHARSET=UTF-8:;;範例路一段 1 號;範例區;範例市;100
  ;台灣
 URL:https://example.com/
-X-SOCIALPROFILE;TYPE=LINE:https://line.me/ti/p/範例代碼
+X-SOCIALPROFILE;TYPE=LINE:https://line.me/ti/p/tc1YUITu0u
 REV:20260914T000000Z
 END:VCARD

@@ -45,7 +45,7 @@ export const card = {
       label: { zh: "範例連結", en: "Sample Link", ja: "サンプルリンク" },
     },
     // LINE 好友連結。不想放 LINE 時設為 null，並依 SETUP.md 移除該區塊。
-    line: { url: "https://line.me/ti/p/範例代碼" },
+    line: { url: "https://line.me/ti/p/tc1YUITu0u" },
   },
 
   expertise: {
