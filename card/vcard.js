@@ -91,7 +91,7 @@ export const buildVCard = ({
     `TEL;TYPE=WORK,VOICE:${card.person.phone.international}`,
     `EMAIL;TYPE=INTERNET,WORK:${card.person.email}`,
     `ADR;TYPE=WORK;CHARSET=UTF-8:${card.vcard.address.map(escapeText).join(";")}`,
-    `URL:${card.person.website.url}`,
+    ...card.person.websites.map((site) => `URL:${site.url}`),
     `X-SOCIALPROFILE;TYPE=LINE:${card.person.line.url}`,
     ...(memory ? [`NOTE;CHARSET=UTF-8:${escapeText(memory)}`] : []),
     `REV:${timestamp.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "")}`,

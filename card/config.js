@@ -47,7 +47,11 @@ export const card = {
       international: "+886-3-591-3338",
     },
     email: "DaisyShen@itri.org.tw",
-    website:  { url: "https://www.itri.org.tw/", label: "itri.org.tw" },
+    // 網站列可放多個連結，同一行並排顯示；第一個也寫進聯絡人檔的主要網址
+    websites: [
+      { url: "https://www.itri.org.tw/index.aspx", label: "ITRI" },
+      { url: "https://ieknet.iek.org.tw/", label: "IEKNet" },
+    ],
     // 第二個連結。沒有第二個網站時，指回公司首頁即可（這一區不可省略）。
     research: {
       url: "https://www.linkedin.com/in/ohyadaisy/",

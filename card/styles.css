@@ -74,6 +74,7 @@ h1 span { display: block; margin-top: 7px; font-size: .55em; font-weight: 500; l
 .contact-details span { font-size: 12px; font-weight: 700; letter-spacing: .08em; opacity: .7; }
 .contact-details a { width: fit-content; max-width: 100%; color: white; font-size: 15px; font-weight: 700; line-height: 1.45; overflow-wrap: anywhere; text-underline-offset: 4px; text-decoration-thickness: 1px; }
 .contact-details a:hover { text-decoration-thickness: 2px; }
+.contact-details .link-group { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; }
 .expertise { margin: 22px 24px 0; padding: 23px 20px 21px; border: 1px solid var(--line); border-radius: 18px; background: #fbfdff; }
 .expertise h2 { font-size: 23px; }
 .bio { margin: 12px 0 17px; color: var(--muted); font-size: 14px; line-height: 1.75; }
