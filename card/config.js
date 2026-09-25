@@ -62,7 +62,7 @@ export const card = {
     bio: {
       zh: "沈怡如（Daisy Shen）現任工研院產業科技國際策略發展所研究員，畢業於國立交通大學運輸科技與管理學系研究所，專長領域為智慧車輛及陸空無人載具。",
       en: "Daisy Shen is a Researcher at ITRI's Industry, Science and Technology International Strategy Center (ISTI). She holds a master's degree from the Department of Transportation Technology and Management at National Chiao Tung University, and specializes in smart vehicles and unmanned ground and aerial vehicles.",
-      ja: "沈怡如（Daisy Shen）は台湾工業技術研究院（ITRI）産業科学技術国際戦略発展所の研究員。国立交通大学 運輸科技・管理学系 大学院修了。専門はスマートビークルおよび陸上・航空無人機。",
+      ja: "沈怡如（Daisy Shen）は台湾工業技術研究院（ITRI）産業科学技術国際戦略発展所の研究員。国立交通大学 運輸科技・管理学系 大学院修了。専門はスマートビークル、無人地上車両・ドローン。",
     },
     advisory: {
       zh: "曾任先進駕駛輔助系統軟體公司專案管理，及 FPGA 高階開發套件公司生產管理職務。目前研究領域為無人機、聯網自駕車、智慧交通及車用電子等相關產業。",
