@@ -41,7 +41,7 @@ export const card = {
       ja: ["台湾工業技術研究院（ITRI）", "産業科学技術国際戦略発展所",
            "スマートモビリティ・応用研究部 機械・システム研究グループ"],
     },
-    phone: { display: "03 591 3338", international: "+886-3-591-3338" },
+    phone: { display: "+886-3-5913338", international: "+886-3-591-3338" },
     email: "DaisyShen@itri.org.tw",
     website:  { url: "https://www.itri.org.tw/", label: "itri.org.tw" },
     // 第二個連結。沒有第二個網站時，指回公司首頁即可（這一區不可省略）。

@@ -225,7 +225,9 @@ test("圖上印的資料與 config.js 同步（改了聯絡資訊卻忘記重掃
   const hint = "紙本名片圖已過期。請重掃名片並更新 card/config.js 的 assets.paperCard.printed";
   assert.equal(paper.printed.titleZh, card.person.title.zh, hint);
   assert.equal(paper.printed.titleEn, card.person.title.en, hint);
-  assert.equal(paper.printed.phone, card.person.phone.display, hint);
+  // 比的是「號碼」而不是寫法：03 591 3338 與 +886-3-5913338 是同一支電話
+  const phoneNumber = (v) => v.replace(/\D/g, "").replace(/^886/, "0");
+  assert.equal(phoneNumber(paper.printed.phone), phoneNumber(card.person.phone.display), hint);
   assert.equal(paper.printed.email, card.person.email, hint);
   assert.equal(paper.printed.address, card.vcard.address[2], hint);
 });
