@@ -184,6 +184,7 @@ function render() {
   $("portrait").alt = t.portraitAlt;
   $("lang-group").setAttribute("aria-label", t.langAria);
   $("contact-details").setAttribute("aria-label", t.contactAria);
+  $("phone-link").textContent = p.phone.display[language];
   document.querySelector('[data-t="phoneLabel"]').textContent = t.phone;
   document.querySelector('[data-t="websiteLabel"]').textContent = t.website;
   document.querySelector('[data-t="researchLabel"]').textContent = t.research;
