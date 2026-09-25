@@ -60,14 +60,14 @@ export const card = {
       ja: "スマートビークルと無人機の研究",
     },
     bio: {
-      zh: "沈怡如（Daisy Shen）現任工研院產業科技國際策略發展所研究員，畢業於國立交通大學運輸科技與管理學系研究所，專長領域為智慧型運輸系統。",
-      en: "Daisy Shen is a Researcher at ITRI's Industry, Science and Technology International Strategy Center (ISTI). She holds a master's degree from the Department of Transportation Technology and Management at National Chiao Tung University, and specializes in intelligent transportation systems.",
-      ja: "沈怡如（Daisy Shen）は台湾工業技術研究院（ITRI）産業科学技術国際戦略発展所の研究員。国立交通大学 運輸科技・管理学系 大学院修了。専門は高度道路交通システム（ITS）。",
+      zh: "沈怡如（Daisy Shen）現任工研院產業科技國際策略發展所研究員，畢業於國立交通大學運輸科技與管理學系研究所，專長領域為智慧車輛及陸空無人載具。",
+      en: "Daisy Shen is a Researcher at ITRI's Industry, Science and Technology International Strategy Center (ISTI). She holds a master's degree from the Department of Transportation Technology and Management at National Chiao Tung University, and specializes in smart vehicles and unmanned ground and aerial vehicles.",
+      ja: "沈怡如（Daisy Shen）は台湾工業技術研究院（ITRI）産業科学技術国際戦略発展所の研究員。国立交通大学 運輸科技・管理学系 大学院修了。専門はスマートビークルおよび陸上・航空無人機。",
     },
     advisory: {
-      zh: "曾任先進駕駛輔助系統軟體公司專案管理，及 FPGA 高階開發套件公司生產管理職務。目前研究領域為聯網自駕車、智慧交通及汽車電子等相關產業。",
-      en: "She previously worked in project management at an ADAS software company and in production management at an FPGA high-end development kit company. Her current research covers connected and autonomous vehicles, smart transportation, and the automotive electronics industry.",
-      ja: "以前は先進運転支援システム（ADAS）ソフトウェア企業でプロジェクト管理を、FPGA ハイエンド開発キット企業で生産管理を担当。現在は コネクテッド自動運転車、スマート交通、車載エレクトロニクスなどの関連産業を研究している。",
+      zh: "曾任先進駕駛輔助系統軟體公司專案管理，及 FPGA 高階開發套件公司生產管理職務。目前研究領域為無人機、聯網自駕車、智慧交通及車用電子等相關產業。",
+      en: "She previously worked in project management at an ADAS software company and in production management at an FPGA high-end development kit company. Her current research covers drones, connected and autonomous vehicles, smart transportation, and automotive electronics.",
+      ja: "以前は先進運転支援システム（ADAS）ソフトウェア企業でプロジェクト管理を、FPGA ハイエンド開発キット企業で生産管理を担当。現在はドローン、コネクテッド自動運転車、スマート交通、車載エレクトロニクスなどの関連産業を研究している。",
     },
     // 3～5 項為宜，手機上超過 5 項會變長條
     items: [
